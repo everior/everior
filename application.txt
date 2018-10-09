@@ -1,14 +1,16 @@
-﻿server: 
-  port: 3344 
-  
-spring:
-  application:
-    name:  microservicecloud-config
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/everior/gittest.git #GitHub上面的git仓库名字
- 
+﻿server:
+  profile:
+    active:
+    -dev
 
+---     
+spring:
+  profile: dev
+  application:
+    name:  microservicecloud-config-dev
  
+---
+spring:
+  profile: dev
+  application:
+    name:  microservicecloud-config-dev
