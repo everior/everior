@@ -5,7 +5,7 @@
 public class Main {
 
     public static void main(String[] args0){
-        System.out.println("hello1, git");
+        System.out.println("hello2, git");
     }
 
 }
