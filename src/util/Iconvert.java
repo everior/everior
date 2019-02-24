@@ -1,4 +1,4 @@
-package test.dot;
+package util;
 
 /**
  * @author tuyp
